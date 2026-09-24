@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+/* `dark:` utilities follow OUR theme switch ([data-theme="dark"] on <html>),
+   not the operating system setting. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * Monjiz palette — a cool indigo identity, chosen to be close to the
+ * reference the owner provided (indigo #44498e on a pale blue-grey
+ * #eef2f7 ground), while the brand name, copy, and assets are our own.
+ *
+ * Accent ramp is built around #44498e at step 600 (the primary button
+ * colour). In dark mode the ramp is inverted so "600" stays the readable,
+ * higher-contrast tone against a dark ground.
+ */
+:root {
+  --color-bg: #eef2f7;
+  --color-surface: #ffffff;
+  --color-text: #1d1f3a;
+  --color-divider: color-mix(in srgb, #1d1f3a 12%, transparent);
+
+  --color-accent-100: #ecedf7;
+  --color-accent-200: #d3d5ec;
+  --color-accent-300: #aeb1da;
+  --color-accent-400: #8185c2;
+  --color-accent-500: #5d62a8;
+  --color-accent-600: #44498e;
+  --color-accent-700: #373b74;
+  --color-accent-800: #2a2d59;
+  --color-accent-900: #1c1e3c;
+
+  --color-neutral-100: #f6f8fb;
+  --color-neutral-200: #e6eaf1;
+  --color-neutral-300: #d0d6e1;
+  --color-neutral-400: #aab2c2;
+  --color-neutral-500: #7f889b;
+  --color-neutral-600: #5b6376;
+  --color-neutral-700: #434a5b;
+  --color-neutral-800: #2e3342;
+  --color-neutral-900: #1d2130;
+
+  /* One Arabic-first family that also has a matching Latin cut, so the
+     Arabic and English versions of the site share one voice. Loaded in
+     nuxt.config.ts; system fallbacks cover the first paint. */
+  --font-heading: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-heading-weight: 700;
+  --font-body: "IBM Plex Sans Arabic", system-ui, sans-serif;
+
+  /* Radius follows hierarchy: controls are tight, containers are soft. */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+
+  --shadow-sm: 0 1px 2px color-mix(in srgb, #1d1f3a 8%, transparent);
+  --shadow-md: 0 6px 18px color-mix(in srgb, #44498e 12%, transparent);
+  --shadow-lg: 0 16px 40px color-mix(in srgb, #44498e 16%, transparent);
+}
+
+[data-theme="dark"] {
+  --color-bg: #12131f;
+  --color-surface: #1b1d2e;
+  --color-text: #e8e9f3;
+  --color-divider: color-mix(in srgb, #e8e9f3 14%, transparent);
+
+  --color-accent-100: #1f2138;
+  --color-accent-200: #282b4a;
+  --color-accent-300: #34386a;
+  --color-accent-400: #44498e;
+  --color-accent-500: #5d62a8;
+  --color-accent-600: #8185c2;
+  --color-accent-700: #aeb1da;
+  --color-accent-800: #d3d5ec;
+  --color-accent-900: #ecedf7;
+
+  --color-neutral-100: #1d2030;
+  --color-neutral-200: #262a3c;
+  --color-neutral-300: #333849;
+  --color-neutral-400: #4a5064;
+  --color-neutral-500: #6b7286;
+  --color-neutral-600: #9aa1b3;
+  --color-neutral-700: #b8bdca;
+  --color-neutral-800: #d5d9e2;
+  --color-neutral-900: #eceef3;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.55);
+}
+
+/* Tailwind v4 CSS-first theme: expose the tokens above as utilities.
+   Values are var() references, so flipping [data-theme] on <html>
+   repaints every utility with no JS class swapping. */
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-text: var(--color-text);
+  --color-divider: var(--color-divider);
+
+  --color-accent-100: var(--color-accent-100);
+  --color-accent-200: var(--color-accent-200);
+  --color-accent-300: var(--color-accent-300);
+  --color-accent-400: var(--color-accent-400);
+  --color-accent-500: var(--color-accent-500);
+  --color-accent-600: var(--color-accent-600);
+  --color-accent-700: var(--color-accent-700);
+  --color-accent-800: var(--color-accent-800);
+  --color-accent-900: var(--color-accent-900);
+
+  --color-neutral-100: var(--color-neutral-100);
+  --color-neutral-200: var(--color-neutral-200);
+  --color-neutral-300: var(--color-neutral-300);
+  --color-neutral-400: var(--color-neutral-400);
+  --color-neutral-500: var(--color-neutral-500);
+  --color-neutral-600: var(--color-neutral-600);
+  --color-neutral-700: var(--color-neutral-700);
+  --color-neutral-800: var(--color-neutral-800);
+  --color-neutral-900: var(--color-neutral-900);
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+}
+
+html,
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  line-height: 1.35;
+}
+
+/* Visible keyboard focus everywhere, in the brand colour. */
+:focus-visible {
+  outline: 2px solid var(--color-accent-500);
+  outline-offset: 2px;
+}
+
+/* ---------- Announcement bar marquee ----------
+   The one piece of ambient motion on the site. Content is duplicated in
+   the template so the loop is seamless; direction flips for RTL. */
+@keyframes marquee-ltr {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes marquee-rtl {
+  from { transform: translateX(0); }
+  to { transform: translateX(50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-ltr 40s linear infinite;
+}
+[dir="rtl"] .marquee-track {
+  animation-name: marquee-rtl;
+}
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
+/* ---------- Shared form & button styles ----------
+   One definition instead of the same long class string in every form. */
+@layer components {
+  .field-label {
+    @apply block text-sm font-medium mb-1;
+  }
+  .field-input {
+    @apply w-full rounded-md border border-divider bg-bg px-3 py-2 text-text
+      focus:outline-none focus:border-accent-500;
+  }
+  .btn-primary {
+    @apply inline-block rounded-md bg-accent-600 px-5 py-2.5 text-center text-white
+      transition-colors hover:bg-accent-700 disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+}

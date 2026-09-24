@@ -1,0 +1,590 @@
+{
+  "nav": {
+    "brand": "Monjiz",
+    "home": "Home",
+    "about": "About",
+    "services": "Our Services",
+    "portfolio": "Our Work",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Fully remote freelance services",
+    "description": "Monjiz is where you request development, design, marketing, and office work, delivered remotely with a clear price before work starts.",
+    "linksTitle": "Useful links",
+    "privacy": "Privacy policy",
+    "terms": "Terms & conditions",
+    "contactTitle": "Contact us",
+    "whatsapp": "WhatsApp",
+    "verified": "Verified with a freelance license",
+    "licenseNumber": "License no.",
+    "rights": "All rights reserved",
+    "adminLogin": "Admin sign-in"
+  },
+  "actions": {
+    "requestService": "Request a service",
+    "toggleTheme": "Toggle dark/light mode",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "switchLanguage": "العربية"
+  },
+  "home": {
+    "seo": {
+      "title": "Monjiz {'|'} Remote Freelance Services: Dev, Design & Marketing",
+      "description": "Monjiz connects you with professional freelancers for programming, design, digital marketing, and office services — fully remote with flexible pricing"
+    },
+    "hero": {
+      "title": "From your idea to a finished result",
+      "subtitle": "Development, design, marketing, and office services — professional, fully remote execution at a price that fits your request",
+      "cta": "Request a service",
+      "ctaSecondary": "Browse our work",
+      "remoteBadge": "All our services are delivered fully remotely",
+      "imageAlt": "A person working on a project on a computer screen"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Choose a category",
+          "description": "Pick the type of service you need from our four categories"
+        },
+        {
+          "title": "Describe your request",
+          "description": "Explain your request in detail, and attach reference files if needed"
+        },
+        {
+          "title": "Get a quote",
+          "description": "We review your request and send a fair price and a clear delivery date"
+        },
+        {
+          "title": "Delivery",
+          "description": "Once you approve, we start the work and deliver it on the agreed date"
+        }
+      ]
+    },
+    "categories": {
+      "title": "Our services",
+      "viewAll": "View all services"
+    },
+    "whyUs": {
+      "title": "Why Monjiz",
+      "items": [
+        {
+          "title": "Complete privacy",
+          "description": "Your data and request details are never shared with a third party"
+        },
+        {
+          "title": "Fully remote",
+          "description": "No in-person presence needed — everything is done online"
+        },
+        {
+          "title": "Clear, flexible pricing",
+          "description": "Pricing that fits your request, known before you commit"
+        },
+        {
+          "title": "Professional quality",
+          "description": "Execution that meets market standards from the first delivery"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Ready to start?",
+      "subtitle": "Request your service now and get a quote shortly after",
+      "cta": "Request a service"
+    },
+    "stats": {
+      "ordersCompleted": "orders completed",
+      "yearsExperience": "years of experience"
+    },
+    "testimonials": {
+      "title": "What our clients say"
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "About Us {'|'} Monjiz",
+      "description": "Learn about Monjiz's mission: professional quality, complete privacy, and clear pricing for every request"
+    },
+    "hero": {
+      "title": "About us",
+      "subtitle": "Monjiz connects you with professional freelancers to get your request done remotely, quickly and clearly"
+    },
+    "mission": {
+      "title": "Our mission",
+      "body": "Many people with ideas and projects need professional execution on a short timeline, without the hassle of finding the right freelancer or negotiating every detail. Monjiz simplifies that: describe your request once, get a clear quote, and follow it through to delivery — all fully remote."
+    },
+    "values": {
+      "title": "Our values",
+      "items": [
+        {
+          "title": "Professional quality",
+          "description": "Execution that meets market standards from the first delivery"
+        },
+        {
+          "title": "Complete privacy",
+          "description": "Your data and request details are never shared with a third party"
+        },
+        {
+          "title": "Clear, flexible pricing",
+          "description": "Know the cost before you commit to any request"
+        }
+      ]
+    },
+    "imageAlt": "Illustrative image of the team at work"
+  },
+  "portfolio": {
+    "seo": {
+      "title": "Our Work {'|'} Monjiz",
+      "description": "Browse sample work across development, design, and marketing before requesting your service"
+    },
+    "hero": {
+      "title": "Our work",
+      "subtitle": "Samples of our work in development, design, marketing, and office services."
+    },
+    "empty": "Our work will be added soon."
+  },
+  "faq": {
+    "seo": {
+      "title": "FAQ {'|'} Monjiz",
+      "description": "Answers to common questions about pricing, delivery time, confidentiality, and revisions"
+    },
+    "hero": {
+      "title": "Frequently asked questions"
+    },
+    "items": [
+      {
+        "question": "How is pricing determined?",
+        "answer": "Pricing is flexible and set per request based on scope and detail. We send a clear quote after reviewing your request, and work only begins after your approval."
+      },
+      {
+        "question": "How long does delivery take?",
+        "answer": "It varies by request type and scope. We give you a specific delivery date as part of the quote itself."
+      },
+      {
+        "question": "Is my data and request confidential?",
+        "answer": "Yes. Your data and request details are never shared with a third party, and are stored with strong protection — see the privacy policy for details."
+      },
+      {
+        "question": "Can I request revisions on delivered work?",
+        "answer": "Yes, as long as the revision stays within the originally agreed scope. Anything beyond that is treated as a new request and may need additional pricing."
+      },
+      {
+        "question": "My request doesn't fit any of the four categories, what do I do?",
+        "answer": "Choose \"Other\" in the request form and describe your request clearly — we'll review it and get back to you."
+      },
+      {
+        "question": "Can I attach files to my request?",
+        "answer": "Yes, you can attach up to 3 files (images, PDF, Office documents), 10MB max per file."
+      },
+      {
+        "question": "Does the service require any in-person presence?",
+        "answer": "No, all our services are delivered fully remotely from start to delivery."
+      }
+    ]
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact Us {'|'} Monjiz",
+      "description": "Have a general question? Reach the Monjiz team directly through our contact form"
+    },
+    "hero": {
+      "title": "Contact us",
+      "subtitle": "Have a general question? This form is for inquiries only — to request a service, use the \"Request a service\" page"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "message": "Message",
+      "messagePlaceholder": "Write your question here...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Your message was sent successfully, we'll get back to you soon.",
+      "consentRequired": "You must agree to the privacy policy before sending"
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Our Services {'|'} Dev, Design, Marketing & Office – Monjiz",
+      "description": "Request web & app development, graphic/UI-UX design, digital marketing & content, or office services — all delivered remotely"
+    },
+    "hero": {
+      "title": "Request a service",
+      "subtitle": "Choose a category, describe your request, and we'll send a clear quote — all our services are fully remote"
+    },
+    "form": {
+      "categoryLabel": "Service type",
+      "detailsLabel": "Request details",
+      "detailsPlaceholder": "Describe your request in detail...",
+      "fullNameLabel": "Name",
+      "fullNamePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone (optional)",
+      "companyLabel": "Company (optional)",
+      "attachmentsLabel": "Attach files (optional)",
+      "attachmentsHint": "Up to 3 files, 10MB each — jpg, png, webp, pdf, docx, pptx, xlsx",
+      "removeFile": "Remove",
+      "submit": "Submit request",
+      "sending": "Sending...",
+      "success": "Your request was received, we'll review it and send a quote soon.",
+      "consentRequired": "You must agree to the privacy policy before sending",
+      "categoryRequired": "You must choose a service type",
+      "fileTypeError": "File type not supported",
+      "fileSizeError": "File is larger than 10MB",
+      "fileCountError": "Maximum 3 files",
+      "uploading": "Uploading and checking your files...",
+      "someFilesRejected": "We received your request, but {count} attached file(s) failed our checks and were removed. You can send them again when we contact you.",
+      "guestNotice": "You can send a request without an account. Signing in lets you follow your requests and message us inside each one — "
+    }
+  },
+  "announcement": {
+    "text": "All our services are delivered fully remotely — request a service and get your quote before you commit"
+  },
+  "legal": {
+    "lastUpdated": "Last updated",
+    "contactLink": "our contact page",
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy {'|'} Monjiz",
+        "description": "How Monjiz collects, uses, and protects your data, and your rights to access, correct, and delete it."
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms & Conditions {'|'} Monjiz",
+        "description": "Terms for requesting services through Monjiz: pricing, delivery, revisions, and cancellation."
+      }
+    }
+  },
+  "errors": {
+    "generic": "Couldn't send. Check your connection and try again.",
+    "rateLimited": "You've sent several requests in a short time. Try again in an hour.",
+    "invalidInput": "Some fields aren't valid. Check them and try again."
+  },
+  "forms": {
+    "consentPrefix": "I agree to the"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "nav": {
+      "overview": "Overview",
+      "requests": "Requests",
+      "messages": "Messages",
+      "viewSite": "View site",
+      "portfolio": "Portfolio",
+      "services": "Services",
+      "settings": "Site settings"
+    },
+    "logout": "Sign out",
+    "login": {
+      "title": "Admin sign-in",
+      "subtitle": "This page is for Monjiz administration.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Checking..."
+    },
+    "mfa": {
+      "enrollTitle": "Set up two-step verification",
+      "enrollIntro": "Two-step verification is required for the admin account. Scan the code with an authenticator app (such as Google Authenticator or Microsoft Authenticator), then enter the 6-digit code.",
+      "secretLabel": "Can't scan? Enter this key manually:",
+      "verifyTitle": "Verification code",
+      "verifyIntro": "Open your authenticator app and enter the current 6-digit code.",
+      "code": "Verification code",
+      "submit": "Confirm",
+      "loading": "Preparing..."
+    },
+    "overview": {
+      "title": "Overview",
+      "newMessages": "New messages",
+      "recent": "Latest requests",
+      "viewAll": "View all requests",
+      "empty": "No requests yet."
+    },
+    "status": {
+      "new": "New",
+      "reviewing": "Reviewing",
+      "quoted": "Quoted",
+      "in_progress": "In progress",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "messageStatus": {
+      "new": "New",
+      "read": "Read",
+      "replied": "Replied"
+    },
+    "requests": {
+      "title": "Requests",
+      "allStatuses": "All statuses",
+      "allCategories": "All categories",
+      "search": "Search by name or email",
+      "client": "Client",
+      "category": "Category",
+      "status": "Status",
+      "date": "Date",
+      "files": "Files",
+      "empty": "No requests match.",
+      "total": "{count} requests"
+    },
+    "request": {
+      "back": "Back to requests",
+      "contact": "Contact details",
+      "details": "Request details",
+      "phone": "Phone",
+      "company": "Company",
+      "email": "Email",
+      "noValue": "—",
+      "attachments": "Attachments",
+      "noAttachments": "No attachments.",
+      "open": "Open",
+      "opening": "Opening...",
+      "linkNote": "The link is valid for one minute only.",
+      "statusLabel": "Request status",
+      "save": "Save status",
+      "saved": "Saved",
+      "delete": "Delete request permanently",
+      "deleteTitle": "Delete this request permanently?",
+      "deleteBody": "The request and all its attachments will be deleted for good and can't be recovered. Use this when a client asks for their data to be erased.",
+      "deleteConfirm": "Yes, delete permanently",
+      "audit": "Activity log",
+      "noAudit": "No recorded activity.",
+      "createdAt": "Submitted",
+      "updatedAt": "Last updated"
+    },
+    "audit": {
+      "view_request": "Viewed request",
+      "open_attachment": "Opened attachment",
+      "delete_request": "Deleted request",
+      "delete_message": "Deleted message",
+      "set_status": "Changed status to: {status}",
+      "update_details": "Updated request details",
+      "add_note": "Added a note",
+      "edit_note": "Edited a note",
+      "delete_note": "Deleted a note",
+      "edit_client_fields": "Edited client details",
+      "reply_to_client": "Replied to the client"
+    },
+    "messages": {
+      "title": "Messages",
+      "allStatuses": "All messages",
+      "empty": "No messages.",
+      "markRead": "Mark as read",
+      "markReplied": "Mark as replied",
+      "reply": "Reply by email",
+      "delete": "Delete",
+      "deleteTitle": "Delete this message permanently?",
+      "deleteBody": "The message will be deleted for good and can't be recovered."
+    },
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "page": "Page {page} of {pages}"
+    },
+    "cancel": "Cancel",
+    "errors": {
+      "generic": "Something went wrong, please try again.",
+      "invalid_credentials": "Incorrect email or password.",
+      "invalid_code": "The code is wrong or has expired.",
+      "rate_limited": "Too many attempts. Wait 15 minutes and try again.",
+      "wrong_stage": "Your session ended. Please sign in again.",
+      "slug_taken": "This identifier is already used by another category.",
+      "invalid_image": "That image isn't valid. Try a JPG, PNG or WebP."
+    },
+    "common": {
+      "save": "Save",
+      "saved": "Saved",
+      "edit": "Edit",
+      "add": "Add",
+      "delete": "Delete",
+      "published": "Published",
+      "hidden": "Hidden",
+      "sortOrder": "Order",
+      "sortOrderHint": "Lower shows first",
+      "optional": "optional"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "intro": "What you add here appears on the site's Our Work page.",
+      "add": "Add work",
+      "addTitle": "New work",
+      "editTitle": "Edit work",
+      "empty": "No work yet.",
+      "titleAr": "Title (Arabic)",
+      "titleEn": "Title (English)",
+      "descAr": "Description (Arabic)",
+      "descEn": "Description (English)",
+      "category": "Category",
+      "noCategory": "No category",
+      "publishedLabel": "Published on the site",
+      "image": "Image",
+      "chooseImage": "Choose image",
+      "uploading": "Uploading image...",
+      "imageHint": "Resized automatically, and hidden data is removed before publishing.",
+      "saveFirst": "Save the item first, then add its image.",
+      "deleteTitle": "Delete this work?",
+      "deleteBody": "The item and its image will be removed from the site permanently."
+    },
+    "services": {
+      "title": "Services",
+      "intro": "The categories shown on the site and in the request form. Categories can't be deleted, only hidden, because past requests point to them.",
+      "add": "Add category",
+      "addTitle": "New category",
+      "editTitle": "Edit category",
+      "slug": "Identifier",
+      "slugHint": "English, no spaces, e.g. video-editing. Can't be changed after creation.",
+      "nameAr": "Name (Arabic)",
+      "nameEn": "Name (English)",
+      "descAr": "Description (Arabic)",
+      "descEn": "Description (English)",
+      "activeLabel": "Visible on the site"
+    },
+    "settings": {
+      "title": "Site settings",
+      "intro": "Any field left empty hides its section on the site. Don't enter estimated figures.",
+      "stats": "Stats",
+      "ordersCompleted": "Orders completed",
+      "yearsExperience": "Years of experience",
+      "contact": "Contact details",
+      "email": "Public email",
+      "whatsapp": "WhatsApp number",
+      "whatsappHint": "International format, digits only, e.g. 9665XXXXXXXX",
+      "license": "Freelance license number"
+    },
+    "testimonials": {
+      "title": "Client reviews",
+      "intro": "Add real reviews only, with the client's consent to show their name and words.",
+      "add": "Add review",
+      "addTitle": "New review",
+      "editTitle": "Edit review",
+      "empty": "No reviews yet. The section stays hidden on the site until you publish one.",
+      "name": "Client name (as they agreed to show it)",
+      "text": "Client's words",
+      "publishedLabel": "Published on the site",
+      "deleteTitle": "Delete this review?",
+      "deleteBody": "The review will be removed from the site permanently."
+    },
+    "manage": {
+      "title": "Manage request",
+      "price": "Quoted price (SAR)",
+      "dueDate": "Due date",
+      "save": "Save details"
+    },
+    "notes": {
+      "title": "Notes",
+      "placeholder": "Write a note about this request...",
+      "add": "Add note",
+      "empty": "No notes yet.",
+      "edited": "edited",
+      "deleteTitle": "Delete this note?",
+      "deleteBody": "The note will be deleted permanently."
+    },
+    "editClient": {
+      "title": "Edit request details",
+      "open": "Edit details",
+      "hint": "Use this to fix a typo or add information the client gave you later. Every change is logged.",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "details": "Request details"
+    },
+    "portfolioImage": {
+      "sourceUpload": "Upload image",
+      "sourceLink": "Image link (CDN)",
+      "urlLabel": "Image URL",
+      "urlHint": "Must start with https. The image loads from its own host, so that host can see visitors' IP addresses.",
+      "uploadWins": "An uploaded image exists and is the one shown. Remove it to use the CDN link instead.",
+      "removeUpload": "Remove uploaded image"
+    },
+    "messagesThread": {
+      "title": "Conversation with the client",
+      "hint": "The client sees these messages in their account. The notes below stay private to you.",
+      "empty": "No messages yet.",
+      "placeholder": "Write your reply to the client...",
+      "send": "Send to client",
+      "you": "You",
+      "client": "Client"
+    }
+  },
+  "account": {
+    "nav": {
+      "account": "My account",
+      "login": "Sign in",
+      "register": "Create account",
+      "logout": "Sign out"
+    },
+    "register": {
+      "title": "Create an account",
+      "subtitle": "An account lets you follow your requests and message us about them.",
+      "name": "Full name",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "At least 10 characters.",
+      "phone": "Phone (optional)",
+      "company": "Company (optional)",
+      "submit": "Create account",
+      "submitting": "Creating...",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Sign in"
+    },
+    "login": {
+      "title": "Sign in",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "noAccount": "No account yet?",
+      "registerLink": "Create one"
+    },
+    "requests": {
+      "title": "My requests",
+      "empty": "You have no requests yet.",
+      "newRequest": "Request a service",
+      "date": "Submitted",
+      "price": "Quoted price",
+      "due": "Due date",
+      "noValue": "Not set yet",
+      "unread": "new message",
+      "view": "View request",
+      "back": "Back to my requests",
+      "details": "Request details",
+      "attachments": "Attachments",
+      "noAttachments": "No attachments.",
+      "open": "Open"
+    },
+    "messages": {
+      "title": "Messages",
+      "empty": "Start the conversation with any question about your request.",
+      "placeholder": "Write your message...",
+      "send": "Send",
+      "you": "You",
+      "team": "Monjiz team"
+    },
+    "loginRequired": {
+      "title": "Requests need an account",
+      "body": "Create an account or sign in to submit your request, follow it, and message us about it.",
+      "login": "Sign in",
+      "register": "Create account"
+    },
+    "errors": {
+      "email_taken": "That email is already registered. Please sign in instead.",
+      "invalid_credentials": "Incorrect email or password.",
+      "rate_limited": "Too many attempts. Please try again shortly.",
+      "generic": "Something went wrong, please try again."
+    },
+    "attachments": {
+      "choose": "Choose files",
+      "upload": "Upload files",
+      "uploading": "Uploading and checking...",
+      "remove": "Remove",
+      "hint": "Up to 3 files at a time, 10 MB each — images, PDF, or Office files.",
+      "added": "{count} file(s) added to your request.",
+      "rejected": "{count} file(s) were rejected by our checks.",
+      "tooMany": "Up to 3 files at a time.",
+      "tooLarge": "That file is larger than 10 MB.",
+      "badType": "That file type isn't supported.",
+      "limitReached": "This request has reached its file limit."
+    }
+  }
+}

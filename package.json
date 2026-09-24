@@ -1,0 +1,39 @@
+{
+  "name": "monjiz",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "check": "nuxt typecheck && eslint . && vitest run && nuxt build"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^10.6.0",
+    "@supabase/supabase-js": "^2",
+    "file-type": "^22.1.1",
+    "nuxt": "^4",
+    "sharp": "^0.35.4",
+    "vue": "^3",
+    "vue-router": "^4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.17.0",
+    "@tailwindcss/vite": "^4",
+    "@types/node": "^22.20.4",
+    "eslint": "^9",
+    "jszip": "^3.10.2",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^5.0.1",
+    "vue-tsc": "^3.3.11"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
